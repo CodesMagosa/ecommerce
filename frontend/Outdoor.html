@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Coach</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='Outdoor.css'>
+    <script src='cart.js'></script>
+</head>
+    <!--Changing the number in the column_# class changes the number of columns-->
+<body>
+    <header>
+        <div class="container">
+          <button type="button" onclick="location.href='index.html'">
+        <img src="logo.jpeg" alt="logo" class="logo"/>
+        </button>
+        <form action="/search" class="search">
+          <input type="text" name="q" placeholder="Search">
+          <button type="submit"><img src="search.jpeg" alt="search"></button>
+        </form>
+        <a href="/account" class="account">
+          <i class="fas fa-user"></i>
+        </a>
+        </div>
+        <link rel='stylesheet' href="./logo.css">
+      </header>
+    <!--end of header-->
+    <!--cart-->
+<div class="floating-cart" onclick="location.href='shoppngcart.html'">
+  <img src="cart1.jpeg" alt="cart">
+  <span id="cart-count">0</span>
+</div>
+<!--end of cart-->
+	<div id="wrap">
+	<div id="columns" class="columns_4">
+  <figure>
+  <img src="Outdoor/O1.jpg">
+    <span class="price">Ksh 50,000</span>
+    <button type="button" class="add-to-cart-button" data-product-id="o001" >Add to Cart</button>
+	</figure>
+	
+	<figure>
+	<img src="Outdoor/O2.jpg">
+    <span class="price">$44</span>
+    <button type="button" class="add-to-cart-button" data-product-id="o002" >Add to Cart</button>
+	</figure>
+	
+  <figure>
+	<img src="Outdoor/O3.jpg">
+    <span class="price">$44</span>
+    <button type="button" class="add-to-cart-button" data-product-id="o003" >Add to Cart</button>
+	</figure>
+  
+	<figure>
+	<img src="Outdoor/O4.jpg">
+    <span class="price">$44</span>
+    <button type="button" class="add-to-cart-button" data-product-id="o004" >Add to Cart</button>
+	</figure>
+	
+   <figure>
+	 <img src="Outdoor/O5.jpg">
+    <span class="price">$44</span>
+    <button type="button" class="add-to-cart-button" data-product-id="o005" >Add to Cart</button>
+	</figure>
+	
+   <figure>
+	 <img src="Outdoor/O6.jpg">
+     <span class="price">$44</span>
+     <button type="button" class="add-to-cart-button" data-product-id="o006" >Add to Cart</button>
+	</figure>
+  
+	<figure>
+	<img src="Outdoor/O7.jpg">
+    <span class="price">$44</span>
+    <button type="button" class="add-to-cart-button" data-product-id="o007" >Add to Cart</button>
+	</figure>	
+  
+   <figure>
+	<img src="Outdoor/O8.jpg">
+     <span class="price">$44</span>
+      <button type="button" class="add-to-cart-button" data-product-id="o008" >Add to Cart</button>
+	</figure>
+  
+    <figure>
+	<img src="Outdoor/O1.jpg">
+      <span class="price">$44</span>
+      <button type="button" class="add-to-cart-button" data-product-id="o009" >Add to Cart</button>
+	</figure>
+    
+</div>
+
+</body>
+</html>
